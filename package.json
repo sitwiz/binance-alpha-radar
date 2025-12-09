@@ -1,0 +1,23 @@
+{
+  "name": "alpha-radar",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:ingest": "npm --workspace @alpha-radar/ingestor run dev",
+    "dev:analyze": "npm --workspace @alpha-radar/analyzer run dev",
+    "dev:bot": "npm --workspace @alpha-radar/bot run dev",
+    "init:db": "npm --workspace @alpha-radar/db run init",
+    "scan:alpha": "npm --workspace @alpha-radar/ingestor run scan",
+    "analyze:token": "npm --workspace @alpha-radar/analyzer run analyze",
+    "watch": "npm --workspace @alpha-radar/ingestor run watch"
+  },
+  "overrides": {
+    "bigint-buffer": "1.1.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

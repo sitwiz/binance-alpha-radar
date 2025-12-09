@@ -1,0 +1,13 @@
+{
+  "solana": {
+    "minLiquidityUsd": 50000
+  },
+  "skip": {
+    "requireNoMintAuthority": true,
+    "requireNoFreezeAuthority": true
+  },
+  "alerts": {
+    "top10JumpPct": 10,
+    "liquidityDropPct": 30
+  }
+}

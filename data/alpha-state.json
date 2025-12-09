@@ -1,0 +1,36 @@
+{
+  "So11111111111111111111111111111111111111112": {
+    "ts": "2025-12-09T19:00:54.672Z",
+    "token": {
+      "symbol": "EXAMPLE",
+      "name": "Example Alpha Token",
+      "chain": "solana",
+      "address": "So11111111111111111111111111111111111111112",
+      "tags": [
+        "alpha",
+        "meme"
+      ]
+    },
+    "error": "Command failed: TOKEN_JSON=\"{\\\"symbol\\\":\\\"EXAMPLE\\\",\\\"name\\\":\\\"Example Alpha Token\\\",\\\"chain\\\":\\\"solana\\\",\\\"address\\\":\\\"So11111111111111111111111111111111111111112\\\",\\\"tags\\\":[\\\"alpha\\\",\\\"meme\\\"]}\" npm --workspace @alpha-radar/analyzer run analyze\nAnalyze failed: (0 , import_spl_token.getMint) is not a function\nnpm error Lifecycle script `analyze` failed with error:\nnpm error code 1\nnpm error path /home/rooso/alpha-radar/packages/analyzer\nnpm error workspace @alpha-radar/analyzer@0.1.0\nnpm error location /home/rooso/alpha-radar/packages/analyzer\nnpm error command failed\nnpm error command sh -c tsx src/analyze.ts\n"
+  },
+  "PASTE_SOL_MINT_ADDRESS_HERE": {
+    "ts": "2025-12-09T19:05:40.046Z",
+    "token": {
+      "symbol": "EXAMPLE",
+      "chain": "solana",
+      "address": "PASTE_SOL_MINT_ADDRESS_HERE",
+      "notes": "Replace with a real Binance Alpha Solana meme coin"
+    },
+    "error": "Command failed: TOKEN_JSON=\"{\\\"symbol\\\":\\\"EXAMPLE\\\",\\\"chain\\\":\\\"solana\\\",\\\"address\\\":\\\"PASTE_SOL_MINT_ADDRESS_HERE\\\",\\\"notes\\\":\\\"Replace with a real Binance Alpha Solana meme coin\\\"}\" npm --workspace @alpha-radar/analyzer run analyze\nAnalyze failed: Non-base58 character\nnpm error Lifecycle script `analyze` failed with error:\nnpm error code 1\nnpm error path /home/rooso/alpha-radar/packages/analyzer\nnpm error workspace @alpha-radar/analyzer@0.1.0\nnpm error location /home/rooso/alpha-radar/packages/analyzer\nnpm error command failed\nnpm error command sh -c tsx src/analyze.ts\n"
+  },
+  "0xPASTE_CONTRACT_ADDRESS_HERE": {
+    "ts": "2025-12-09T19:05:41.327Z",
+    "token": {
+      "symbol": "EXAMPLEEVM",
+      "chain": "evm",
+      "address": "0xPASTE_CONTRACT_ADDRESS_HERE",
+      "notes": "Optional: if Binance Alpha includes EVM meme coins you care about"
+    },
+    "error": "Unexpected token '>', \"\n> @alpha-r\"... is not valid JSON"
+  }
+}

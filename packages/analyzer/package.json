@@ -1,0 +1,15 @@
+{
+  "name": "@alpha-radar/analyzer",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts",
+  "dependencies": {
+    "@alpha-radar/shared": "0.1.0",
+    "@solana/spl-token": "^0.1.8",
+    "@solana/web3.js": "^1.98.4"
+  },
+  "scripts": {
+    "dev": "tsx src/analyze.ts",
+    "analyze": "tsx src/analyze.ts"
+  }
+}

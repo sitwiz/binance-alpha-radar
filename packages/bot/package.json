@@ -1,0 +1,9 @@
+{
+  "name": "@alpha-radar/bot",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx src/send-alerts.ts"
+  }
+}

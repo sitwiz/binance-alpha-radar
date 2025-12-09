@@ -1,0 +1,8 @@
+{
+  "name": "@alpha-radar/dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo \"Dashboard placeholder - we will wire this to data/alpha-latest.json next.\""
+  }
+}

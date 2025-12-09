@@ -1,0 +1,18 @@
+{
+  "source": "binance-alpha-manual",
+  "updatedAt": "2025-12-09T00:00:00Z",
+  "tokens": [
+    {
+      "symbol": "EXAMPLE",
+      "chain": "solana",
+      "address": "PASTE_SOL_MINT_ADDRESS_HERE",
+      "notes": "Replace with a real Binance Alpha Solana meme coin"
+    },
+    {
+      "symbol": "EXAMPLEEVM",
+      "chain": "evm",
+      "address": "0xPASTE_CONTRACT_ADDRESS_HERE",
+      "notes": "Optional: if Binance Alpha includes EVM meme coins you care about"
+    }
+  ]
+}

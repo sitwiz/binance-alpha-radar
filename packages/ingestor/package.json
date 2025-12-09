@@ -1,0 +1,14 @@
+{
+  "name": "@alpha-radar/ingestor",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts",
+  "dependencies": {
+    "@alpha-radar/shared": "0.1.0"
+  },
+  "scripts": {
+    "dev": "tsx src/scan-alpha.ts",
+    "scan": "tsx src/scan-alpha.ts",
+    "watch": "tsx src/watch-alpha.ts"
+  }
+}
