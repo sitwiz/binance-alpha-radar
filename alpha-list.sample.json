@@ -1,0 +1,11 @@
+{
+  "source": "binance-alpha-sample",
+  "updatedAt": "2025-12-09T00:00:00Z",
+  "tokens": [
+    {
+      "symbol": "SAMPLE",
+      "chain": "solana",
+      "address": "PASTE_A_PUBLIC_SOL_MINT_FOR_DEMO"
+    }
+  ]
+}

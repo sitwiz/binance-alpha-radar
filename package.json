@@ -11,7 +11,9 @@
     "init:db": "npm --workspace @alpha-radar/db run init",
     "scan:alpha": "npm --workspace @alpha-radar/ingestor run scan",
     "analyze:token": "npm --workspace @alpha-radar/analyzer run analyze",
-    "watch": "npm --workspace @alpha-radar/ingestor run watch"
+    "watch": "npm --workspace @alpha-radar/ingestor run watch",
+    "demo": "bash -c 'test -f alpha-list.local.json || cp alpha-list.sample.json alpha-list.local.json' && npm run build:alpha-list && npm run scan:alpha && npm run watch",
+    "build:alpha-list": "tsx scripts/build-alpha-list.ts"
   },
   "overrides": {
     "bigint-buffer": "1.1.5"
